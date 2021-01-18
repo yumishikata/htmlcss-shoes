@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav{
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+}
+ul {
+  position: absolute;
+  right: 3%;
+  line-height: 10vh;
+}
+li {
+  display: inline-block;
+  list-style: none;
+
+}
+li div{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li:hover div{
+  box-shadow: 5px 5px black;
+}
+
+
+section {
+  height: 100vh;
+  width: auto;
+}
+#uno {
+  background-color: red;
+}
+#due {
+  background-color: green;
+}
+#tre {
+  background-color: yellow;
+}
+
+.contenuto {
+  width: 50%;
+  height: 70vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.contenuto img {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.testo {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+}
+#uno .testo , #due .testo {
+  color: yellow;
+}
+
+#tre .testo {
+  color: green;
+}
